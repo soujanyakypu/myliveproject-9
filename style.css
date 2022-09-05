@@ -1,0 +1,218 @@
+/* POPPINS FONT FAMILY */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 10px 10px;
+}
+/* body {
+  background-color: #ffffff;
+} */
+header {
+  background-color: #182ace;
+  margin: 0;
+  height: 35vh;
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* min-height: 10%;
+  min-width: 100%; */
+}
+nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.nav-item {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 5px;
+  color: aliceblue;
+}
+.logo {
+  position: relative;
+  top: -50px;
+  width: 70px;
+}
+.nav-item-active {
+  font-size: 10px;
+  background-color: #ffffff;
+}
+.header-text {
+  position: relative;
+  top: -40px;
+  color: #ffffff;
+  font-size: 15px;
+}
+h2 {
+  position: relative;
+  font-size: 15px;
+  font-weight: 100;
+}
+p {
+  font-size: 10px;
+  color: #e6f3f3;
+  font-weight: 20;
+}
+.header-image {
+  position: relative;
+  top: -200px;
+  left: 300px;
+  width: 250px;
+}
+.companies a {
+  position: relative;
+  right: 15px;
+  font-size: 12px;
+  color: black;
+  text-decoration: none;
+  font-weight: 100;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+.cards {
+  display: flex;
+}
+.api-heading {
+  font-size: 15px;
+}
+.cards {
+  background-color: #f5efef;
+  width: 140px;
+  height: 140px;
+  border-radius: 10px;
+  /* height: 50px; */
+}
+.card-head-active {
+  position: relative;
+  bottom: 15px;
+  font-size: 10px;
+  color: #182ace;
+}
+.card-logo {
+  width: 25px;
+  height: 25px;
+}
+.card-head {
+  position: relative;
+  bottom: 15px;
+  font-size: 10px;
+}
+.card-body {
+  position: relative;
+  bottom: 20px;
+  width: 120px;
+  color: black;
+}
+.card {
+  background-color: #ffffff;
+  width: 100px;
+  height: 140px;
+  border-radius: 10px;
+}
+.blog-heading {
+  font-size: 8px;
+}
+.blog-cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.blog-card {
+  position: relative;
+  bottom: 20px;
+  right: 30px;
+  background-color: #f0f7f0f5;
+  display: flex;
+  width: 450px;
+  height: 300;
+}
+.blog-image {
+  width: 250px;
+}
+.blog-content {
+  font-size: 10px;
+}
+.blog-bottom {
+  position: relative;
+  top: 270px;
+  right: 150px;
+}
+.blog-author {
+  position: relative;
+  top: 400px;
+}
+.faq-section {
+  background-color: #d8bdbd;
+  height: 20rem;
+
+  display: flex;
+
+  justify-content: space-between;
+  align-items: center;
+}
+.faq-content h2 {
+  flex-grow: 2;
+  font-size: 20px;
+  font-weight: 900;
+  /* width: 400px;
+  height: 100px; */
+}
+h4 {
+  height: 5vh;
+  font-size: 5px;
+}
+.faq-image {
+  height: 50px;
+  position: relative;
+  left: 200px;
+  bottom: 150px;
+
+  /* width: 15rem; */
+}
+.faq-section button {
+  background-color: #3d73d8;
+  width: 80px;
+  color: #ffffff;
+  border: none;
+  font-size: 10px;
+}
+.download-section {
+  /* display: flex; */
+}
+h1 {
+  font-size: 15px;
+  font-weight: 900;
+}
+span {
+  font-weight: 50;
+}
+.download-email {
+  position: relative;
+  bottom: 40px;
+  left: 300px;
+  /* background-color: #788bb3; */
+  border: none;
+  border-radius: 10px;
+  /* width: 50px; */
+}
+form {
+  border: none;
+}
+@media screen and (max-width: 800px){
+
+  body{
+      background: orange;
+  
+  }
+  h1{
+  font-size: 30px;
+  }
+  span{
+  font-size: 50px;
+  }
+  nav{
+    visibility: none;
+  }
+  }
